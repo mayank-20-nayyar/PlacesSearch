@@ -1,0 +1,44 @@
+<html>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" type="text/css" media="all" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+</script> <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">/*
+
+</script>
+
+   <body>
+      
+      <form name = "form" action = "{% url 'place' %}" 
+         method = "POST" >{% csrf_token %}
+         
+         <div style = "max-width:470px;">
+            <center> 
+               <input type = "text" style = "margin-left:20%;" 
+                  placeholder = "Type the place" name = "placename" />
+            </center>
+         </div>
+			
+         <br>
+         
+         
+         <div style = "max-width:470px;">
+            <center> 
+            
+               <button style = "border:0px; background-color:#4285F4; margin-top:8%;
+                  height:35px; width:80%;margin-left:19%;" type = "submit" 
+                  value = "Push" >
+                  <strong>Push</strong>
+               </button>
+               
+            </center>
+         </div>
+         
+      </form>
+
+      
+      <div>
+         {{place_back}}
+      </div>      
+      
+   </body>
+</html>
