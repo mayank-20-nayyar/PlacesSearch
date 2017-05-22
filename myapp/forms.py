@@ -1,5 +1,5 @@
 from django import forms
 
 class PlaceForm(forms.Form):
-   place = forms.CharField(max_length = 100)
+   placename = forms.CharField(max_length = 100)
    

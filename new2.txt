@@ -1,0 +1,1 @@
+this is before ifh<QueryDict: {'placename': ['nanital'], 'csrfmiddlewaretoken': ['zbYaTXPAknhotxLKcKTfpzbvX1OpQkUUm5vL4nBVGnmarj07xFv1STJwWL9xTwLG']}>True<class 'django.forms.utils.ErrorDict'>nanital<QuerySet [<Places: Places object>, <Places: Places object>, <Places: Places object>, <Places: Places object>]> this is there inside database
